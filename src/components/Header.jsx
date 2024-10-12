@@ -1,7 +1,11 @@
+import '../styles/Header.css'
+
 const Header = () => {
         return (
             <header>
-                <h1></h1>
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#" className='login'>Iniciar sesión</a>
             </header>
         );
     }
