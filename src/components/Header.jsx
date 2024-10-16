@@ -3,9 +3,10 @@ import '../styles/Header.css'
 const Header = () => {
         return (
             <header>
-                <a href="#">Inicio</a>
-                <a href="#">Nosotros</a>
-                <a href="#" className='login'>Iniciar sesión</a>
+                <a href="#">INICIO</a>
+                <a href="#">NOSOTROS</a>
+                <a href="#" className='login'>INICIAR SESIÓN</a>
+                <img src="/negro.png" alt="Logo" className='logo' />
             </header>
         );
     }

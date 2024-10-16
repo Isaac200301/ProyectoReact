@@ -1,18 +1,32 @@
-header{
+header {
     width: 100%;
-    height: 15vh;
-    background-color: rgb(71, 66, 55);
-    padding: 21px;
+    height: 10vh;
+    background-color: #164A41;
     display: flex;
-    justify-content: center;
+    justify-content: space-between; 
     align-items: center;
-    gap: 20px;
+    padding: 20px; 
 }
 
-header .login{
-    justify-content: end;   
+header .logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+    padding: 20px;
 }
 
-header a{
+header .login {
+    margin-left: auto; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 20px;
+}
+
+header a {
     text-decoration: none;  
+    color: #FFFFFF; 
+    padding: 20px;
 }
