@@ -1,9 +1,10 @@
 import React from 'react'
+import'../styles/Footer.css'
 
 const Footer = () => {
   return (
-    <div>
-        <h1>Pie de página</h1>
+    <div className='derechos'>
+        <h1>Derechos reservados @Confereasy</h1>
     </div>
   )
 }

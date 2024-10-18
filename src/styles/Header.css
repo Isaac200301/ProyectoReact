@@ -1,11 +1,13 @@
 header {
     width: 100%;
-    height: 10vh;
-    background-color: #164A41;
+    height: 7vh;
+    background-color: #000;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     padding: 20px; 
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
 header .logo {
@@ -15,6 +17,7 @@ header .logo {
     justify-content: left; 
     align-items: center;
     padding: 20px;
+    
 }
 
 header .login {
@@ -23,6 +26,7 @@ header .login {
     justify-content: flex-end; 
     align-items: center;
     padding: 20px;
+   
 }
 
 header a {
